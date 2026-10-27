@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0",
-    "test": "vitest run"
+    "dev": "vite --configLoader runner",
+    "build": "vite build --configLoader runner",
+    "preview": "vite preview --host 0.0.0.0 --configLoader runner",
+    "test": "vitest run --configLoader runner"
   },
   "devDependencies": {
     "jsdom": "^27.0.1",
