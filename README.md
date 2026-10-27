@@ -20,6 +20,9 @@ npm run preview
 
 Testy spustíte příkazem `npm test`.
 
+Vite ukládá sestavení a vývojovou cache do dočasného systémového adresáře,
+takže příkazy fungují i při připojení zdrojového adresáře pouze pro čtení.
+
 ## Soukromí a demonstrační údaje
 
 Objednávkový formulář je pouze interaktivní ukázka. Neodesílá síťový požadavek, data neukládá a po úspěšné místní validaci zobrazí jen české potvrzení v prohlížeči. Veškeré ceny, dopravní vzdálenosti, podmínky a značka jsou fiktivní; před skutečným nasazením je nutné je nahradit ověřenými údaji provozovatele.
